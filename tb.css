@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #3a0404;
+    min-height: 100vh;
+    border:10px solid black; 
+}
+.content{
+    max-width:900px;
+    margin:0 auto;
+
+}
+.top{
+    margin-top: 100px;
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color:transparent;
+    text-shadow: coral;
+    text-decoration: underline cover;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+
+}
+.top h4{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: end;
+}
+.top h5{
+    font-size: 20px;
+    text-align: end;
+}
+.image_container,img{
+    width:300px;
+    height:320px;
+    border-color: black;
+    border:solid black;
+}
+.about{
+    margin-top: 50px;
+    background-color: azure;
+}
+.about h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about p{
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+.other_info{
+    margin-bottom: 50px 0px;
+}
+.other_info h2{
+margin-bottom: 20px;
+}
+.other_info ul{
+margin-left: 50px;
+}
+.other_info li{
+    margin-bottom: 15px;
+}
+footer{
+    margin:50px 0;
+}
+footer{
+    text-align: end;
+}
